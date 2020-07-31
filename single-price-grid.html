@@ -5,40 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="single-price-grid.css">
   
   <title>Frontend Mentor | Single Price Grid Component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+ 
 </head>
 <body>
-  Join our community
+  <div class="container">
+     <div class="row" id="join">
+      <h3 style="color:hsl(179, 62%, 43%);font-weight:700">Join our community</h3>
 
-  30-day, hassle-free money back guarantee
+      <h4 style="color:hsl(71, 73%, 54%);font-weight:700">30-day, hassle-free money back guarantee</h4>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+      <p style="color:hsl(218, 22%, 67%)">Gain access to our full library of tutorials along with expert code reviews. 
+      Perfect for any developers who are serious about honing their skills.</p>
+      </div>
 
-  Monthly Subscription
+     <div class="row">
+      <div class="col-sm" id="monthly">
+        <h5 style="font-weight: 700">Monthly Subscription</h5>
+        <h1 style="display: inline; padding-right:15px;">&dollar;29</h1><p style="display: inline; color:hsl(218, 22%, 67%)">per month</p>
+        <p>Full access for less than &dollar;1 a day</p>
+        <br>
+        <button type="button" class="btn btn-lg btn-block">Sign Up</button>
+      </div>
 
-  &dollar;29 per month
+      <div class="col-sm" id="why">
+        <h5 style="font-weight: 700">Why Us</h5>
 
-  Full access for less than &dollar;1 a day
+        Tutorials by industry experts<br>
+        Peer &amp; expert code review<br>
+        Coding exercises<br>
+        Access to our GitHub repos<br>
+        Community forum<br>
+        Flashcard decks<br>
+        New videos every week
+     </div>
 
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
+    </div>
+  </div>  
   
   <footer>
     <p class="attribution">
@@ -46,5 +57,9 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
